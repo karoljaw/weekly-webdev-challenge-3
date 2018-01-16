@@ -1,0 +1,58 @@
+.project-container {
+    margin-top: 5rem;
+}
+
+.project-item {
+    padding: 20px 0;
+}
+
+@media (min-width: 520px) {
+    .project__item {
+        float: left;
+    }
+}
+
+.project__icon {
+    padding: 10px;
+    margin-right: 1rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    float: left;
+}
+
+.project__icon--basket {
+    padding: 12px;
+}
+
+.project__icon--lock {
+    padding: 11px 16px;
+}
+
+.project-item-text-bold {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.project-item-text {
+    font-size: 1rem;
+    max-width: 500px;
+}
+
+.project-item-link {
+    text-decoration: none;
+    color: $green;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 3rem;
+}
+
+.project-item-link:hover {
+    color: $black;
+    transition: 0.3s;
+}
+
+.project-text {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    max-width: 500px;
+}

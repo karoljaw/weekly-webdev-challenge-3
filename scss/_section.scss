@@ -1,0 +1,86 @@
+.section {
+    padding: 100px 0px;
+}
+
+@media (min-width: 920px) {
+    .services {
+        background-image: url("../img/tablet.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+}
+
+.section__row {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.section__heading {
+    font-size: 2rem;
+    color: $black-lighter;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section__heading--white {
+    color: $white;
+}
+
+.section__heading--small {
+    font-size: 1rem;
+    color: $black-lighter;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section__text {
+    font-size: 1rem;
+    color: $grey;
+    text-align: center;
+}
+
+.section__text--left {
+    text-align: left;
+}
+
+.item {
+    margin-top: 50px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.item__image {
+    padding: 1.5rem;
+}
+
+.item__image--border {
+    border: 2px solid $grey;
+    border-radius: 50%;
+}
+
+.item__title {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding-bottom: .5rem;
+}
+
+.item__text {
+    font-size: 1rem;
+}
+
+@media (min-width: 720px) {
+    .section__row {
+        display: flex;
+        flex-direction: row;
+        max-width: 1000px;
+    }
+    .section__heading {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+    .section__text {
+        font-size: 1.1rem;
+    }
+}

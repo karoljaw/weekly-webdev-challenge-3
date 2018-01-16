@@ -1,0 +1,95 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: $white;
+    z-index: 5;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 36px;
+    li {
+        display: inline;
+        margin-right: 25px;
+        font-size: 0.85rem; 
+    }
+     a {
+            color: #777;
+            text-transform: uppercase;
+            text-decoration: none;
+    }
+    a:hover {
+            color: $black;
+            transition: 0.3s;
+    }
+}
+
+.nav-burger {
+    position: relative;
+    width: 40px;
+    height: 35px;
+    background-color: transparent;
+    border-top: 5px solid $black;
+    cursor: pointer;
+}
+
+.nav-burger::after, 
+.nav-burger::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border-top: 5px solid $black;
+}
+
+.nav-burger::after {
+    transform: translateY(25px);
+}
+
+.nav-burger::before {
+    transform: translateY(10px);
+}
+
+.hide-nav {
+    display: none;
+}
+
+@media (min-width: 720px) {
+    .hide-nav {
+        display: inline-block;
+    }    
+    .hide-burger {
+        display: none;
+    }    
+}
+
+.nav-burger:hover,
+.nav-burger:hover::after,
+.nav-burger:hover::before {
+    border-top: 5px solid $green;
+}
+
+.nav-opened {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $white;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transition: .3s;
+    a {
+        padding: 1rem;
+        text-align: center;
+    }
+}
+
+
+

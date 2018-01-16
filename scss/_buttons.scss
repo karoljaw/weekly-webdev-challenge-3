@@ -1,0 +1,27 @@
+.btn {
+    position: relative;
+    font-size: .8rem;
+    padding: 1rem 1.2rem;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 20px;
+    font-weight: 700;
+    color: $white;
+    background-color: $green;
+    z-index: 1;
+    cursor: pointer;    
+}
+
+.btn:hover {
+    background-color: $white;
+    color: $black;
+    transition: 0.3s;
+}
+
+.btn-contact {
+    background-color: transparent;
+    border: 3px solid $white;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding: 1rem 1.4rem;
+}

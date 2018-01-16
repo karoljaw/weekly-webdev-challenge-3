@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-top-40 {
+    margin-top: 40px;
+}

@@ -1,0 +1,47 @@
+.footer-black {
+    background-color: $black;
+    color: $white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.footer-black__contact-section {
+    width: 300px;
+    padding: 3rem;
+}
+
+.footer-black__contact-section h3 {
+    padding: .6rem 0;
+    text-transform: uppercase;
+}
+
+.footer-black__contact-section p {
+    padding: .3rem 0;
+    display: flex;
+}
+
+.footer__media-icons {
+    margin: 0 4rem;
+}
+
+.footer__icon {
+    padding-right: .5rem;
+}
+
+.footer__icon:hover {
+    cursor: pointer;
+    color: $green;
+}
+
+.footer__white__container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer__white__text {
+    font-size: 0.9rem;
+}
