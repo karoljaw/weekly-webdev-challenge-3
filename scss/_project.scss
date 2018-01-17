@@ -34,6 +34,8 @@
 }
 
 .project-item-text {
+    font-family: 'Roboto Slab', serif;
+    color: $grey;
     font-size: 1rem;
     max-width: 500px;
 }
@@ -52,6 +54,8 @@
 }
 
 .project-text {
+    font-family: 'Roboto Slab', serif;
+    color: $grey;
     margin-top: 2rem;
     margin-bottom: 1rem;
     max-width: 500px;

@@ -2,14 +2,6 @@
     padding: 100px 0px;
 }
 
-@media (min-width: 920px) {
-    .services {
-        background-image: url("../img/tablet.png");
-        background-repeat: no-repeat;
-        background-position: bottom right;
-    }
-}
-
 .section__row {
     display: flex;
     flex-direction: column;
@@ -68,6 +60,8 @@
 
 .item__text {
     font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+    color: $grey;
 }
 
 @media (min-width: 720px) {
@@ -82,5 +76,12 @@
     }
     .section__text {
         font-size: 1.1rem;
+    }
+}
+@media (min-width: 920px) {
+    .services {
+        background-image: url("../img/tablet.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
     }
 }

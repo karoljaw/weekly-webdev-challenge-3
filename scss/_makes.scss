@@ -3,8 +3,9 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 30px 0;
+    &__image {
+        padding: 1rem;
+    }
 }
 
-.makes__image {
-    padding: 1rem;
-}

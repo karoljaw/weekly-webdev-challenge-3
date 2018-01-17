@@ -9,7 +9,13 @@
 
 .footer-black__contact-section {
     width: 300px;
-    padding: 3rem;
+    padding: 1rem;
+}
+
+@media (min-width: 720px) {
+    .footer-black__contact-section {
+        padding: 3rem;
+    }
 }
 
 .footer-black__contact-section h3 {
